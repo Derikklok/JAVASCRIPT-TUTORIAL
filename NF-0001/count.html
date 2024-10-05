@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Count</title>
+</head>
+<body style="margin: 0; height: 100vh; display: flex; justify-content: center; align-items: center; background-color: #f0f2f5;">
+
+    <div style="background: rgba(255, 255, 255, 0.9); border-radius: 10px; padding: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); width: 350px; text-align: center;">
+        <h1 style="font-family: Arial, sans-serif;">Student Details</h1>
+
+        <!-- Input field to enter the number of students -->
+        <div style="margin-bottom: 20px;">
+            <label for="studentNumber" style="font-size: 18px; display: block; margin-bottom: 10px;">Enter Number of Students:</label>
+            <input type="number" id="studentNumber" name="studentNumber" placeholder="Enter student count" style="width: 80%; padding: 8px; border-radius: 5px; border: 1px solid #ddd; box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);">
+        </div>
+
+        <!-- Submit button to show the number entered -->
+        <button onclick="showStudentCount()" style="background-color: #4CAF50; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; margin-bottom: 20px;">Submit</button>
+        
+        <!-- Display section for student count -->
+        <div style="margin-top: 20px; padding: 10px; background: #f9f9f9; border-radius: 8px; border: 1px solid #ddd;">
+            <h2 style="margin: 0;">Student Count</h2>
+            <span id="displayStudentNumber" style="font-size: 20px; color: #333;">0</span>
+        </div>
+
+        <!-- Next button to navigate to index.html -->
+        <br><br>
+        <!-- <button onclick="redirectToIndex()" style="background-color: #242424; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;">Next</button> -->
+         <a href="./index.html" style="background-color: #242424; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer;" onclick="redirectToIndex()">Next</a>
+    </div>
+
+    <script src="index.js">
+        
+    </script>
+</body>
+</html>

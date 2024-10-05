@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Details</title>
+    <link rel="stylesheet" href="index.css"> <!-- Link to CSS file -->
+    <script src="index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Student Details</h1>
+
+            <div class="input-group">
+                <label for="studentName">Enter Student Name: </label>
+                <input type="text" name="studentName" id="stdName" placeholder="Enter student name here" size="28" title="ex - sachin">
+            </div>
+
+            <div class="input-group">
+                <label for="studentAge">Enter Student Age: </label>
+                <input type="text" name="studentAge" id="stdAge" placeholder="Enter student age here" size="28" title="ex - 18">
+            </div>
+
+            <button type="submit" onclick="myfunction()">Submit</button>
+
+            <div class="display-section">
+                <h2>My Display</h2>
+                <label for="nameDisplay">Student name is: </label>
+                <span id="displayName">NAME</span>
+                <br>
+                <label for="ageDisplay">Student age is: </label>
+                <span id="displayAge">AGE</span>
+                <p id="studentCountDisplay">Count</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
