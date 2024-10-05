@@ -13,11 +13,12 @@
 
 ```bash
 
-'                 c = 2 * λ * r                   '
+       c = 2 * λ * r
 
  where λ = 3.14
 
        r = radius
+       
        
  ```
 
